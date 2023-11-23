@@ -17,7 +17,7 @@ class Email
         $this->mail->Host       = 'smtp-mail.outlook.com';                     //Set the SMTP server to send through
         $this->mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         $this->mail->Username   = 'edson_mario@hotmail.com';                     //SMTP username
-        $this->mail->Password   = 'b5UZ};c*7#Mq<ovB';                               //SMTP password
+        $this->mail->Password   = 'teste@1234';                               //SMTP password
         $this->mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
         $this->mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set
         // `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
